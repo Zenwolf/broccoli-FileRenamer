@@ -1,0 +1,28 @@
+{
+  "name": "broccoli-FileRenamer",
+  "description": "A Broccoli plugin to rename files based on a digest.",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "author": {
+    "name": "Matthew Jaquish",
+    "url": "https://github.com/Zenwolf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zenwolf/broccoli-FileRenamer"
+  },
+  "license": "Apache 2",
+  "keywords": [
+    "broccoli-plugin",
+    "file",
+    "rename",
+    "digest"
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "broccoli-writer": "^0.1.1",
+    "mkpath": "^0.1.0",
+    "rsvp": "^3.0.9"
+  }
+}
